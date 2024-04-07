@@ -1,13 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  /* background-color: #edf0f9; */
+  background-color: #f0f0f0;
+  /* background-color: #f5f5f5; */
+  /* background-color: #fff; */
+}
+body * {
+  @apply transition-colors duration-100;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(52, 52, 52);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.gradiant {
+  background: linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 2px)
+      calc(100% - 2px) no-repeat,
+    linear-gradient(90deg, #583fbc 0%, #7de0ea 100%);
+  border-radius: 4px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.DarkH {
+  background: linear-gradient(#242a41, #242a41) 50% 50% / calc(100% - 2px)
+      calc(100% - 2px) no-repeat,
+    linear-gradient(90deg, #583fbc 0%, #7de0ea 100%);
+  border-radius: 4px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+/* .back {
+  background-image: url(../src/imges/headerBackgroung.png);
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+.navBorder {
+  border-bottom: #ffffff;
+  border-style: solid;
+  border-width: 0.5px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+.codeIcons {
+  width: auto;
+  height: 75px;
+}
+.circles {
+  background-image: url(../src/imges/Circles.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: unset;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
 }
