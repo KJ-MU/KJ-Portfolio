@@ -1,8 +1,7 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+
 import { RiInstagramFill } from "react-icons/ri";
-import { MdEmail } from "react-icons/md";
+
 import { Link } from "react-router-dom";
 import { VscGithubInverted } from "react-icons/vsc";
 import { SiLinkedin } from "react-icons/si";
