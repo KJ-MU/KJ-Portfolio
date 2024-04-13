@@ -60,12 +60,6 @@ code {
   width: auto;
   height: 75px;
 }
-.circles {
-  background-image: url(../src/imges/Circles.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: unset;
-}
 
 .skills {
   display: flex;
