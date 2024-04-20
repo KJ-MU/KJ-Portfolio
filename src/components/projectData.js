@@ -2,7 +2,16 @@ import todoapp from "../imges/todoapp.png";
 import pokemonsss from "../imges/pokemonsss.png";
 import gallery from "../imges/gallery.png";
 import food from "../imges/food.png";
+import EMLMovies from "../imges/EMLMovies.png";
 const projectData = [
+  {
+    id: 0,
+    title: "EML Movies",
+    Url: "https://eml-movies.netlify.app/",
+    githuburl: "https://github.com/KJ-MU/movie-api",
+    imageUrl: EMLMovies,
+    info: "Rreact-JS Redux",
+  },
   {
     id: 1,
     title: "Todo App",
@@ -17,7 +26,7 @@ const projectData = [
     Url: "https://tranquil-griffin-2c60fe.netlify.app/",
     githuburl: "https://github.com/KJ-MU/JS-Pokemon_API_Project",
     imageUrl: pokemonsss,
-    info: "HTML CSS JavaScript",
+    info: "HTML CSS JS",
   },
   {
     id: 3,

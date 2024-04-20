@@ -5,15 +5,15 @@ export const ProjectCard = ({ project }) => {
   return (
     <div
       data-aos="fade-right"
-      className="font-abc mt-20 relative max-w-screen-xsm rounded-lg  shadow-lg bg-superWhite dark:bg-lightperpule dark:hover:shadow-Lightgreen  hover:drop-shadow-2xl transition-all duration-300 ease-in-out"
+      className="h-72 flex flex-col justify-center items-center font-abc mt-20 relative max-w-screen-xsm rounded-lg  shadow-lg bg-superWhite dark:bg-lightperpule dark:hover:shadow-Lightgreen  hover:drop-shadow-2xl transition-all duration-300 ease-in-out"
     >
       <img
-        className="rounded-2xl p-3 w-full h-auto"
+        className="rounded-2xl p-3 w-72 h-52"
         src={project.imageUrl}
         alt="Card"
       />
 
-      <div className="flex justify-between items-center px-6 py-4">
+      <div className="flex justify-between items-center gap-10 px-6 py-4">
         <div className="font-bold text-lg mb-2">
           {" "}
           <p className="  dark:text-white ">{project.title}</p>

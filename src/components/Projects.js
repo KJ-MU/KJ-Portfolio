@@ -9,7 +9,7 @@ export const Projects = () => {
     <div className="  flex flex-col justify-center items-start md:flex-row">
       <div className="xl:w-3/4  lg:w-4/5 flex flex-col justify-center  mb-10">
         <h1 className="mt-10 text-4xl font-abc font-bold my-10">Projects</h1>
-        <div className="flex flex-wrap gap-3 justify-evenly items-center ">
+        <div className="flex flex-wrap gap-10 justify-center items-center ">
           {visibleCards.map((project) => {
             return <ProjectCard key={project.id} project={project} />;
           })}
