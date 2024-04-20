@@ -33,6 +33,9 @@ export const Header = ({ theme }) => {
       if (scaleX < -1) {
         scaleX = -1;
       }
+      if (scaleX > 1) {
+        scaleX = 1;
+      }
 
       gsap.to(imgRef.current, { scaleX: scaleX });
     };
