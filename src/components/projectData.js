@@ -3,7 +3,16 @@ import pokemonsss from "../imges/pokemonsss.png";
 import gallery from "../imges/gallery.png";
 import food from "../imges/food.png";
 import EMLMovies from "../imges/EMLMovies.png";
+import lesson from "../imges/lesson.png";
 const projectData = [
+  {
+    id: 5,
+    title: "Nerdify",
+    Url: "",
+    githuburl: "https://github.com/KJ-MU/Nerdify",
+    imageUrl: lesson,
+    info: "Rreact-JS NodeJs MangoDB",
+  },
   {
     id: 0,
     title: "EML Movies",
