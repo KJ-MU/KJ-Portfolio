@@ -4,7 +4,16 @@ import gallery from "../imges/gallery.png";
 import food from "../imges/food.png";
 import EMLMovies from "../imges/EMLMovies.png";
 import lesson from "../imges/lesson.png";
+import blog from "../imges/blog.png";
 const projectData = [
+  {
+    id: 6,
+    title: "Blog",
+    Url: "",
+    githuburl: "https://github.com/KJ-MU/bllog-project",
+    imageUrl: blog,
+    info: "Rreact-JS NodeJs MangoDB",
+  },
   {
     id: 5,
     title: "Nerdify",
