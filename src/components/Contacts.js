@@ -87,7 +87,7 @@ export const Contacts = () => {
                 </label>
                 <input
                   type="text"
-                  className="w-full h-10 p-2 my-2 rounded hover:brightness-75 "
+                  className="w-full h-10 p-2 my-2 rounded dark:text-Darkblue hover:brightness-75 "
                   placeholder="Your Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
@@ -100,7 +100,7 @@ export const Contacts = () => {
                 </label>
                 <input
                   type="email"
-                  className="w-full h-10 p-2 my-2 rounded hover:brightness-75"
+                  className="w-full h-10 p-2 my-2 dark:text-Darkblue rounded hover:brightness-75"
                   placeholder="Your Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -114,7 +114,7 @@ export const Contacts = () => {
                 Message
               </label>
               <textarea
-                className="w-full h-full p-2 my-2 rounded hover:brightness-75"
+                className="w-full h-full p-2 my-2 dark:text-Darkblue rounded hover:brightness-75"
                 placeholder="Your Message"
                 value={message}
                 rows={5}

@@ -77,7 +77,7 @@ export const Header = ({ theme }) => {
               STACK{" "}
             </strong>
             WEB{" "}
-            <strong className=" p-0 xl:text-6xl text-5xl font-bold">
+            <strong className=" p-0 xl:text-6 text-5xl font-bold">
               {" "}
               DEVELOPER{" "}
             </strong>
