@@ -1,0 +1,42 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="100"
+  height="100"
+  viewBox="0 0 100 100"
+>
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <text
+    x="50%"
+    y="50%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="48"
+    fill="#583FBC"
+    font-weight="bold"
+    filter="url(#glow)"
+  >
+    &lt;KJ/&gt;
+  </text>
+  <text
+    x="50%"
+    y="50%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="48"
+    fill="none"
+    stroke="#7ED9E2"
+    stroke-width="2.5"
+  >
+    &lt;KJ/&gt;
+  </text>
+</svg>
