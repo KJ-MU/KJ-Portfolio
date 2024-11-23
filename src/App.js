@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Footer } from "./components/Footer";
 import { AboutMe } from "./components/AboutMe";
+import { NerdifyPage } from "./components/NerdifyPage";
 function App() {
   const [theme, setTheme] = useState("dark");
   const { pathname } = useLocation();
@@ -31,6 +32,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/contact me" element={<Contacts />} />
+        <Route path="/projects/nerdify" element={<NerdifyPage />} />
       </Routes>
       <Footer />
       <div className="container mx-auto"></div>

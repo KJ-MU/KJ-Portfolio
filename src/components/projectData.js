@@ -17,7 +17,7 @@ const projectData = [
   {
     id: 5,
     title: "Nerdify",
-    Url: "",
+    Url: "/projects/nerdify",
     githuburl: "https://github.com/KJ-MU/Nerdify",
     imageUrl: lesson,
     info: "Rreact-JS NodeJs MangoDB",
